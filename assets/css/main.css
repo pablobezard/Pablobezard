@@ -215,7 +215,7 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		text-align: center;
 		margin: 0 0 2rem 0;
 	}
 
@@ -235,24 +235,24 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2rem;
+		font-size: 1.25rem;
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
 	}
 
 	h2 {
-		font-size: 1.75rem;
+		font-size: 1.10rem;
 		line-height: 1.3;
 		margin: 0 0 1.5rem 0;
 	}
 
 	h3 {
-		font-size: 1.25rem;
+		font-size: 1rem;
 		margin: 0 0 1.5rem 0;
 	}
 
 	h4 {
-		font-size: 1rem;
+		font-size: 0.69rem;
 	}
 
 	h5 {
@@ -2659,8 +2659,9 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 2.5rem 0;
-			width: 100%;
+			margin: auto;
+			width: 80%;
+			padding: 2rem;
 		}
 
 			.image.fit:first-child {
@@ -2673,8 +2674,11 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
-			width: 100%;
+			margin: auto;
+			padding: 1rem;
+			width: 60%;
+			
+			
 		}
 
 			.image.main:first-child {
@@ -2689,10 +2693,12 @@ input, select, textarea {
 
 			.image.fit {
 				margin: 2rem 0;
+				
 			}
 
 			.image.main {
 				margin: 2rem 0;
+				width: 100%;
 			}
 
 		}
@@ -3984,6 +3990,7 @@ input, select, textarea {
 
 		}
 
+	
 		
 /* Footer */
 
